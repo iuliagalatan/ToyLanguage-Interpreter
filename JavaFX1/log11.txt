@@ -1,0 +1,573 @@
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(int a;(int b;(int c;(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(int b;(int c;(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))))))), int a]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(int b;(int c;(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))))))), int a]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+
+--ExecutionStack--
+[(int b;(int c;(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)))))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+
+--ExecutionStack--
+[(int b;(int c;(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)))))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+
+--ExecutionStack--
+[(int c;(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)))))), int b]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+
+--ExecutionStack--
+[(int c;(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)))))), int b]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+
+--ExecutionStack--
+[(int c;(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+
+--ExecutionStack--
+[(int c;(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+
+--ExecutionStack--
+[(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))))), int c]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+
+--ExecutionStack--
+[(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))))), int c]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+c <- 0
+
+--ExecutionStack--
+[(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+c <- 0
+
+--ExecutionStack--
+[(c=5;(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+c <- 0
+
+--ExecutionStack--
+[(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)))), c=5]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+c <- 0
+
+--ExecutionStack--
+[(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)))), c=5]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+c <- 5
+
+--ExecutionStack--
+[(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+c <- 5
+
+--ExecutionStack--
+[(a=1;(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+c <- 5
+
+--ExecutionStack--
+[(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))), a=1]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 0
+b <- 0
+c <- 5
+
+--ExecutionStack--
+[(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))), a=1]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 0
+c <- 5
+
+--ExecutionStack--
+[(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 0
+c <- 5
+
+--ExecutionStack--
+[(b=2;(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 0
+c <- 5
+
+--ExecutionStack--
+[(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)), b=2]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 0
+c <- 5
+
+--ExecutionStack--
+[(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300)), b=2]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 2
+c <- 5
+
+--ExecutionStack--
+[(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 2
+c <- 5
+
+--ExecutionStack--
+[(switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300));print(300))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 2
+c <- 5
+
+--ExecutionStack--
+[print(300), switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 2
+c <- 5
+
+--ExecutionStack--
+[print(300), switch( a * 10) (case c * b) (print(a);print(b))
+(case 10) (print(100);print(200))
+(default print(300))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 2
+c <- 5
+
+--ExecutionStack--
+[print(300), (if(a * 10 == c * b) then((print(a);print(b)))else((if(a * 10 == 10) then((print(100);print(200)))else(print(300)))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 2
+c <- 5
+
+--ExecutionStack--
+[print(300), (if(a * 10 == c * b) then((print(a);print(b)))else((if(a * 10 == 10) then((print(100);print(200)))else(print(300)))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- 1
+b <- 2
+c <- 5
+
+--ExecutionStack--
+[print(300), (print(a);print(b))]
+--FileTable---
+
+--HeapTable---
+

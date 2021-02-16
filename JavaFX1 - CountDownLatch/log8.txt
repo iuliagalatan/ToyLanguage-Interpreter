@@ -1,0 +1,321 @@
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(int v;(v=6;(while ( v > 3 )
+ {
+ (print(v);v=v - 1)};print(v))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(v=6;(while ( v > 3 )
+ {
+ (print(v);v=v - 1)};print(v))), int v]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(v=6;(while ( v > 3 )
+ {
+ (print(v);v=v - 1)};print(v))), int v]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 0
+
+--ExecutionStack--
+[(v=6;(while ( v > 3 )
+ {
+ (print(v);v=v - 1)};print(v)))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 0
+
+--ExecutionStack--
+[(v=6;(while ( v > 3 )
+ {
+ (print(v);v=v - 1)};print(v)))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 0
+
+--ExecutionStack--
+[(while ( v > 3 )
+ {
+ (print(v);v=v - 1)};print(v)), v=6]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 0
+
+--ExecutionStack--
+[(while ( v > 3 )
+ {
+ (print(v);v=v - 1)};print(v)), v=6]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 6
+
+--ExecutionStack--
+[(while ( v > 3 )
+ {
+ (print(v);v=v - 1)};print(v))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 6
+
+--ExecutionStack--
+[(while ( v > 3 )
+ {
+ (print(v);v=v - 1)};print(v))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 6
+
+--ExecutionStack--
+[print(v), while ( v > 3 )
+ {
+ (print(v);v=v - 1)}]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 6
+
+--ExecutionStack--
+[print(v), while ( v > 3 )
+ {
+ (print(v);v=v - 1)}]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 6
+
+--ExecutionStack--
+[print(v), while ( v > 3 )
+ {
+ (print(v);v=v - 1)}, (print(v);v=v - 1)]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 6
+
+--ExecutionStack--
+[print(v), while ( v > 3 )
+ {
+ (print(v);v=v - 1)}, (print(v);v=v - 1)]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 6
+
+--ExecutionStack--
+[print(v), while ( v > 3 )
+ {
+ (print(v);v=v - 1)}, v=v - 1, print(v)]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v <- 6
+
+--ExecutionStack--
+[print(v), while ( v > 3 )
+ {
+ (print(v);v=v - 1)}, v=v - 1, print(v)]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[6]
+---SymbolTable--
+v <- 6
+
+--ExecutionStack--
+[print(v), while ( v > 3 )
+ {
+ (print(v);v=v - 1)}, v=v - 1]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[6]
+---SymbolTable--
+v <- 6
+
+--ExecutionStack--
+[print(v), while ( v > 3 )
+ {
+ (print(v);v=v - 1)}, v=v - 1]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[6]
+---SymbolTable--
+v <- 5
+
+--ExecutionStack--
+[print(v), while ( v > 3 )
+ {
+ (print(v);v=v - 1)}]
+--FileTable---
+
+--HeapTable---
+

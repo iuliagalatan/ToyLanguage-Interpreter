@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerGUI">
+   <center>
+      <VBox prefHeight="411.0" prefWidth="636.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tableView" prefHeight="275.0" prefWidth="600.0">
+              <columns>
+                <TableColumn fx:id="idColumn" prefWidth="75.0" text="Id." />
+                <TableColumn fx:id="exerciseColumn" prefWidth="523.3333206176758" text="Exercise." />
+              </columns>
+            </TableView>
+            <Button fx:id="runButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#clickedRunButton" prefHeight="26.0" prefWidth="257.0" text="Run Exercise" textAlignment="CENTER">
+               <font>
+                  <Font name="Courier New" size="14.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+               <VBox.margin>
+                  <Insets left="169.0" top="45.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

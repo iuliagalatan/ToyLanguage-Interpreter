@@ -1,0 +1,995 @@
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(Ref(int) a;(Ref(int) b;(int v;(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))))))))]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(Ref(int) b;(int v;(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))))))), Ref(int) a]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(Ref(int) b;(int v;(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))))))), Ref(int) a]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(Ref(int) b;(int v;(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))))))))]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(Ref(int) b;(int v;(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))))))))]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(int v;(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))))))), Ref(int) b]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(int v;(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))))))), Ref(int) b]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+b <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(int v;(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))))))]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+b <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(int v;(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))))))]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+b <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))))), int v]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+b <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))))), int v]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+b <- heapAdress: 0 location Type:int
+v <- 0
+
+--ExecutionStack--
+[(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))))))]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+b <- heapAdress: 0 location Type:int
+v <- 0
+
+--ExecutionStack--
+[(new(a,0);(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))))))]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+b <- heapAdress: 0 location Type:int
+v <- 0
+
+--ExecutionStack--
+[(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))))), new(a,0)]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+b <- heapAdress: 0 location Type:int
+v <- 0
+
+--ExecutionStack--
+[(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))))), new(a,0)]
+--FileTable---
+
+--HeapTable---
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 0 location Type:int
+v <- 0
+
+--ExecutionStack--
+[(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))))]
+--FileTable---
+
+--HeapTable---
+1->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 0 location Type:int
+v <- 0
+
+--ExecutionStack--
+[(new(b,0);(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))))]
+--FileTable---
+
+--HeapTable---
+1->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 0 location Type:int
+v <- 0
+
+--ExecutionStack--
+[(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))), new(b,0)]
+--FileTable---
+
+--HeapTable---
+1->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 0 location Type:int
+v <- 0
+
+--ExecutionStack--
+[(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))), new(b,0)]
+--FileTable---
+
+--HeapTable---
+1->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))))]
+--FileTable---
+
+--HeapTable---
+1->0
+2->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(writeHeap(a,1);(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))))]
+--FileTable---
+
+--HeapTable---
+1->0
+2->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))), writeHeap(a,1)]
+--FileTable---
+
+--HeapTable---
+1->0
+2->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))), writeHeap(a,1)]
+--FileTable---
+
+--HeapTable---
+1->0
+2->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(writeHeap(b,2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))), writeHeap(b,2)]
+--FileTable---
+
+--HeapTable---
+1->1
+2->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))), writeHeap(b,2)]
+--FileTable---
+
+--HeapTable---
+1->1
+2->0
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))), v=readHeap(a) < readHeap(b)?100:200]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))), v=readHeap(a) < readHeap(b)?100:200]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))), (if(readHeap(a) < readHeap(b)) then(v=100)else(v=200))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))), (if(readHeap(a) < readHeap(b)) then(v=100)else(v=200))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))), v=100]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))), v=100]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[(print(v);(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)), print(v)]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v)), print(v)]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[(v=readHeap(b) - 2 > readHeap(a)?100:200;print(v))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[print(v), v=readHeap(b) - 2 > readHeap(a)?100:200]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[print(v), v=readHeap(b) - 2 > readHeap(a)?100:200]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[print(v), (if(readHeap(b) - 2 > readHeap(a)) then(v=100)else(v=200))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[print(v), (if(readHeap(b) - 2 > readHeap(a)) then(v=100)else(v=200))]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[print(v), v=200]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 100
+
+--ExecutionStack--
+[print(v), v=200]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 200
+
+--ExecutionStack--
+[print(v)]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 200
+
+--ExecutionStack--
+[print(v)]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--
+
+
+
+---id---
+1
+---OutputList--
+[100, 200]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+b <- heapAdress: 2 location Type:Ref(int)
+v <- 200
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->1
+2->2
+
+--LatchTable--

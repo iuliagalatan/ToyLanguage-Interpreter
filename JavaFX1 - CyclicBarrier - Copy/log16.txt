@@ -1,0 +1,2152 @@
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(Ref(int) v1;(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))))))), Ref(int) v1]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))))))), Ref(int) v1]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))))), Ref(int) v2]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))))), Ref(int) v2]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(Ref(int) v3;(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))))), Ref(int) v3]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))))), Ref(int) v3]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(int cnt;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))), int cnt]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))), int cnt]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))), new(v1,2)]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 0 location Type:int
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))), new(v1,2)]
+--FileTable---
+
+--HeapTable---
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))]
+--FileTable---
+
+--HeapTable---
+1->2
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))]
+--FileTable---
+
+--HeapTable---
+1->2
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))), new(v2,3)]
+--FileTable---
+
+--HeapTable---
+1->2
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 0 location Type:int
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))), new(v2,3)]
+--FileTable---
+
+--HeapTable---
+1->2
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))), new(v3,4)]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))), new(v3,4)]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))), newBarrierStatement(cnt, readHeap(v2))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 0
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))), newBarrierStatement(cnt, readHeap(v2))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))), fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3)))), fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(awaitBarrier( cnt );print(readHeap(v3))), fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1))), awaitBarrier( cnt )]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(awaitBarrier( cnt );print(readHeap(v3))), fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1))), awaitBarrier( cnt )]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(awaitBarrier( cnt );print(readHeap(v3)))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+3
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2)))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(awaitBarrier( cnt );print(readHeap(v3)))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+3
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2)))))]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v3)), awaitBarrier( cnt )]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v1)), writeHeap(v1,readHeap(v1) * 10)]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+3
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2)))), awaitBarrier( cnt )]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v3)), awaitBarrier( cnt )]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v1)), writeHeap(v1,readHeap(v1) * 10)]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+3
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2)))), awaitBarrier( cnt )]
+--FileTable---
+
+--HeapTable---
+1->2
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v3))]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v1))]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v3))]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v1))]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+1
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))), writeHeap(v2,readHeap(v2) * 10)]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+1
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))), writeHeap(v2,readHeap(v2) * 10)]
+--FileTable---
+
+--HeapTable---
+1->20
+2->3
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+1
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2)))]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+1
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2)))]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+1
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v2)), writeHeap(v2,readHeap(v2) * 10)]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+1
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v2)), writeHeap(v2,readHeap(v2) * 10)]
+--FileTable---
+
+--HeapTable---
+1->20
+2->30
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+1
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->300
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->300
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v2))]
+--FileTable---
+
+--HeapTable---
+1->20
+2->300
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+1
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->300
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->300
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[4, 20]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(v2))]
+--FileTable---
+
+--HeapTable---
+1->20
+2->300
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+1
+---OutputList--
+[4, 20, 300]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->300
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+2
+---OutputList--
+[4, 20, 300]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->300
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+
+
+
+
+---id---
+3
+---OutputList--
+[4, 20, 300]
+---SymbolTable--
+cnt <- 1
+v1 <- heapAdress: 1 location Type:Ref(int)
+v2 <- heapAdress: 2 location Type:Ref(int)
+v3 <- heapAdress: 3 location Type:Ref(int)
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+2->300
+3->4
+
+
+--BarrierTable--
+1->3=[2, 1, 3]
+

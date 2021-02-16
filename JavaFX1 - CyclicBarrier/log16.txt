@@ -1,0 +1,30 @@
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(Ref(int) v1;(Ref(int) v2;(Ref(int) v3;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(Ref(int) v2;(Ref(int) v3;(new(v1,2);(new(v2,3);(new(v3,4);(newBarrierStatement(cnt, readHeap(v2));(fork((awaitBarrier( cnt );(writeHeap(v1,readHeap(v1) * 10);print(readHeap(v1)))));(fork((awaitBarrier( cnt );(writeHeap(v2,readHeap(v2) * 10);(writeHeap(v2,readHeap(v2) * 10);print(readHeap(v2))))));(awaitBarrier( cnt );print(readHeap(v3))))))))))), Ref(int) v1]
+--FileTable---
+
+--HeapTable---
+

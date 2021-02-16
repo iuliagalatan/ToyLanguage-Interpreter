@@ -1,0 +1,1806 @@
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(Ref(int) a;(new(a,20);((int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))));print(readHeap(a)))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(new(a,20);((int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))));print(readHeap(a)))), Ref(int) a]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+
+--ExecutionStack--
+[(new(a,20);((int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))));print(readHeap(a)))), Ref(int) a]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(a,20);((int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))));print(readHeap(a))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[(new(a,20);((int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))));print(readHeap(a))))]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[((int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))));print(readHeap(a))), new(a,20)]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 0 location Type:int
+
+--ExecutionStack--
+[((int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))));print(readHeap(a))), new(a,20)]
+--FileTable---
+
+--HeapTable---
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+
+--ExecutionStack--
+[((int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))));print(readHeap(a)))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+
+--ExecutionStack--
+[((int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))));print(readHeap(a)))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(a)), (int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(a)), (int v;for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(a)), for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))), int v]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+
+--ExecutionStack--
+[print(readHeap(a)), for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a))), int v]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a)))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), for( v=0; v<3; v=v + 1 ) 
+ fork((print(v);v=v + readHeap(a)))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), (int v;(v=0;while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), (int v;(v=0;while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), (v=0;while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}), int v]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), (v=0;while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}), int v]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), (v=0;while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)})]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), (v=0;while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)})]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=0]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=0]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, (fork((print(v);v=v + readHeap(a)));v=v + 1)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, (fork((print(v);v=v + readHeap(a)));v=v + 1)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1, fork((print(v);v=v + readHeap(a)))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1, fork((print(v);v=v + readHeap(a)))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(print(v);v=v + readHeap(a))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[(print(v);v=v + readHeap(a))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[v=v + readHeap(a), print(v)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[v=v + readHeap(a), print(v)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, (fork((print(v);v=v + readHeap(a)));v=v + 1)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[v=v + readHeap(a)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, (fork((print(v);v=v + readHeap(a)));v=v + 1)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 0
+
+--ExecutionStack--
+[v=v + readHeap(a)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1, fork((print(v);v=v + readHeap(a)))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1, fork((print(v);v=v + readHeap(a)))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[(print(v);v=v + readHeap(a))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[(print(v);v=v + readHeap(a))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[v=v + readHeap(a), print(v)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[v=v + readHeap(a), print(v)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, (fork((print(v);v=v + readHeap(a)));v=v + 1)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[v=v + readHeap(a)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, (fork((print(v);v=v + readHeap(a)));v=v + 1)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 1
+
+--ExecutionStack--
+[v=v + readHeap(a)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1, fork((print(v);v=v + readHeap(a)))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 21
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1, fork((print(v);v=v + readHeap(a)))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 21
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 21
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+4
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[(print(v);v=v + readHeap(a))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}, v=v + 1]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 21
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+4
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[(print(v);v=v + readHeap(a))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 3
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 21
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+4
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[v=v + readHeap(a), print(v)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 3
+
+--ExecutionStack--
+[print(readHeap(a)), while ( v < 3 )
+ {
+ (fork((print(v);v=v + readHeap(a)));v=v + 1)}]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 21
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+4
+---OutputList--
+[0, 1]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[v=v + readHeap(a), print(v)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1, 2]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 3
+
+--ExecutionStack--
+[print(readHeap(a))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1, 2]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1, 2]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 21
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+4
+---OutputList--
+[0, 1, 2]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[v=v + readHeap(a)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1, 2]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 3
+
+--ExecutionStack--
+[print(readHeap(a))]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1, 2]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1, 2]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 21
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+4
+---OutputList--
+[0, 1, 2]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 2
+
+--ExecutionStack--
+[v=v + readHeap(a)]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+1
+---OutputList--
+[0, 1, 2, 20]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 3
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+2
+---OutputList--
+[0, 1, 2, 20]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 20
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+3
+---OutputList--
+[0, 1, 2, 20]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 21
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
+
+
+
+---id---
+4
+---OutputList--
+[0, 1, 2, 20]
+---SymbolTable--
+a <- heapAdress: 1 location Type:Ref(int)
+v <- 22
+
+--ExecutionStack--
+[]
+--FileTable---
+
+--HeapTable---
+1->20
+
